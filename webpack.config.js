@@ -15,7 +15,8 @@ module.exports = {
     extensions: ['.js', '.jsx'],
   },
   devServer: {
-    contentBase: path.resolve(__dirname, 'public')
+    contentBase: path.resolve(__dirname, 'public'),
+    port: 8888,
   },
   plugins: [
     new htmlWebpackPlugin({
